@@ -1,0 +1,12 @@
+#Created by Carl Webster with a code review by Michael B. Smith
+#webster@carlwebster.com
+#@carlwebster on Twitter
+#https://www.CarlWebster.com
+#
+#michael@smithcons.com
+#@essentialexch on Twitter
+#https://www.essential.exchange/blog/
+#
+#Created on October 5, 2019
+#Version 1.00 released to the community on 1-Nov-2019
+
