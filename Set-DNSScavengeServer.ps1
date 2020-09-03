@@ -1,5 +1,5 @@
 #Requires -Version 4.0
-#Resuires -Module ActiveDirectory
+#Requires -Module ActiveDirectory
 #Requires -Module DnsServer
 
 #region help text
