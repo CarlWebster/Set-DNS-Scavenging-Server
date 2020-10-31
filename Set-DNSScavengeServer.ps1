@@ -203,15 +203,6 @@ If($Dev)
 	$Script:DevErrorFile = Join-Path $Script:pwdpath "DNSScavengeScriptErrors_$(Get-Date -f yyyy-MM-dd_HHmm).txt"
 }
 
-Function Banner
-{
-	Write-Host "                                                                                    " -BackgroundColor Black -ForegroundColor White
-	Write-Host "               This FREE script was brought to you by Conversant Group              " -BackgroundColor Black -ForegroundColor White
-	Write-Host "We design, build, and manage infrastructure for a secure, dependable user experience" -BackgroundColor Black -ForegroundColor White
-	Write-Host "                       Visit our website conversantgroup.com                        " -BackgroundColor Black -ForegroundColor White
-	Write-Host "                                                                                    " -BackgroundColor Black -ForegroundColor White
-}
-
 Function TestComputerName
 {
 	Param([string]$Cname)
@@ -435,8 +426,6 @@ Function ProcessScriptEnd
 		}
 	}
 	$ErrorActionPreference = $SaveEAPreference
-	
-	Banner
 }
 
 $script:startTime = Get-Date
