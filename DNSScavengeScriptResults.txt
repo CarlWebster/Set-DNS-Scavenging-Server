@@ -1,0 +1,11 @@
+
+BeforeAfter   ZoneName               AgingEnabled ScavengeServers
+-----------   --------               ------------ ---------------
+Before Change _msdcs.LabADDomain.com        False                
+After Change  _msdcs.LabADDomain.com         True 192.168.1.202  
+Before Change 1.168.192.in-addr.arpa        False                
+After Change  1.168.192.in-addr.arpa         True 192.168.1.202  
+Before Change LabADDomain.com               False                
+After Change  LabADDomain.com                True 192.168.1.202  
+
+

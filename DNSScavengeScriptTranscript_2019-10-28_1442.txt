@@ -1,0 +1,75 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20191028144227
+Username: LABADDOMAIN\ctxadmin
+RunAs User: LABADDOMAIN\ctxadmin
+Configuration Name: 
+Machine: LABMGMTPC (Microsoft Windows NT 10.0.18362.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+Process ID: 7520
+PSVersion: 5.1.18362.145
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.145
+BuildVersion: 10.0.18362.145
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+VERBOSE: 10/28/2019 14:42:27: Transcript/log started at c:\webster\DNSScavengeScriptTranscript_2019-10-28_1442.txt
+VERBOSE: 10/28/2019 14:42:27:
+VERBOSE: 10/28/2019 14:42:27:
+VERBOSE: 10/28/2019 14:42:27: ComputerName       : labdc2
+VERBOSE: 10/28/2019 14:42:27: DevErrorFile       : c:\webster\DNSScavengeScriptErrors_2019-10-28_1442.txt
+VERBOSE: 10/28/2019 14:42:27: Folder             : c:\webster
+VERBOSE: 10/28/2019 14:42:27: Log                : True
+VERBOSE: 10/28/2019 14:42:27: ScriptInfo         : True
+VERBOSE: 10/28/2019 14:42:27:
+VERBOSE: 10/28/2019 14:42:27: OS Detected        : Microsoft Windows 10 Enterprise
+VERBOSE: 10/28/2019 14:42:27: PoSH version       : 5.1.18362.145
+VERBOSE: 10/28/2019 14:42:27: PSCulture          : en-US
+VERBOSE: 10/28/2019 14:42:27: PSUICulture        : en-US
+VERBOSE: 10/28/2019 14:42:27:
+VERBOSE: 10/28/2019 14:42:27: Script start       : 10/28/2019 14:42:27
+VERBOSE: 10/28/2019 14:42:27:
+VERBOSE: 10/28/2019 14:42:27:
+VERBOSE: 10/28/2019 14:42:27: Testing to see if labdc2 is online and reachable
+VERBOSE: 10/28/2019 14:42:30: Server labdc2 is online.
+WARNING: EnableRegistryBoot not applicable on DNS Server labdc2 version.
+VERBOSE: Displays the client subnet specified by the –Name parameter, or displays all client subnets on the server if the –Name parameter is not specified.
+VERBOSE: 10/28/2019 14:42:31: Computer labdc2 is a DNS Server
+VERBOSE: 10/28/2019 14:42:31:
+VERBOSE: 10/28/2019 14:42:31: Retrieving AD-Integrated DNS Zones
+VERBOSE: 10/28/2019 14:42:31: Processing DNS Zone _msdcs.LabADDomain.com
+Confirm
+Are you sure you want to perform this action?
+Performing the operation "Set Scavenging Server" on target "_msdcs.LabADDomain.com".
+&Yes  Yes to &All  &No  No to A&ll  &Suspend
+Y
+VERBOSE: 10/28/2019 14:42:33: 	Zone _msdcs.LabADDomain.com was successfully configured for Scavenging
+VERBOSE: 10/28/2019 14:42:33: Processing DNS Zone 1.168.192.in-addr.arpa
+Confirm
+Are you sure you want to perform this action?
+Performing the operation "Set Scavenging Server" on target "1.168.192.in-addr.arpa".
+&Yes  Yes to &All  &No  No to A&ll  &Suspend
+Y
+VERBOSE: 10/28/2019 14:42:33: 	Zone 1.168.192.in-addr.arpa was successfully configured for Scavenging
+VERBOSE: 10/28/2019 14:42:33: Processing DNS Zone LabADDomain.com
+Confirm
+Are you sure you want to perform this action?
+Performing the operation "Set Scavenging Server" on target "LabADDomain.com".
+&Yes  Yes to &All  &No  No to A&ll  &Suspend
+Y
+VERBOSE: 10/28/2019 14:42:34: 	Zone LabADDomain.com was successfully configured for Scavenging
+VERBOSE: 10/28/2019 14:42:34: c:\webster\DNSScavengeScriptResults.txt is ready for use
+VERBOSE: 10/28/2019 14:42:34: Script has completed
+VERBOSE: 10/28/2019 14:42:34:
+VERBOSE: 10/28/2019 14:42:34: Script started: 10/28/2019 14:42:27
+VERBOSE: 10/28/2019 14:42:34: Script ended: 10/28/2019 14:42:34
+VERBOSE: 10/28/2019 14:42:34: Elapsed time: 0 days, 0 hours, 0 minutes, 6.890 seconds
+VERBOSE: 10/28/2019 14:42:34: c:\webster\DNSScavengeScriptErrors_2019-10-28_1442.txt is ready for use
+VERBOSE: 10/28/2019 14:42:34: C:\Webster\DNSScavengeScriptInfo_2019-10-28_1442.txt is ready for use
+**********************
+Windows PowerShell transcript end
+End time: 20191028144234
+**********************
